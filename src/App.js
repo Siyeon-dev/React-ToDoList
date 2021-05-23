@@ -73,7 +73,7 @@ class App extends Component {
 			handleToggle,
 			handleRemove,
 		} = this;
-		console.log(this.state);
+
 		return (
 			<TodoListTemplate
 				form={

@@ -2,7 +2,6 @@ import React from "react";
 import "./Form.css";
 
 const Form = ({ value, onChange, onCreate, onKeyPress }) => {
-	console.log(onCreate);
 	return (
 		<div className='form'>
 			<input value={value} onChange={onChange} onKeyPress={onKeyPress} />
